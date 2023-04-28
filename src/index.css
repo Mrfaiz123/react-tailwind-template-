@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    background-image: linear-gradient(to right,#D82E7C,#FF6464);
+    transition-duration: 1s;
+}
+.btn:hover{
+    background-image: linear-gradient(to right,#FF6464,#FF6464)
+
+}
+span{
+    color:#FF6464 ;
+}
+.nav-heading{
+    cursor: pointer;
+    background: linear-gradient(to right,#D82E7C,salmon);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.nav-heading:hover{
+    background: linear-gradient(to right,salmon,#D82E7C);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.logo{
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.mid:hover .logo{
+    transform: rotate(360deg);
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.slider{
+    background-image: url("./imges/main-slider-img.jpg");
+    background-size: 100% 100%;
+}
+.slider1{
+    background-image: url("./imges/main-slider-img1.jpg");
+    background-size: 100% 100%;
+}
+.slider2{
+    background-image: url("./imges/main-slider-img2.jpg");
+    background-size: 100% 100%;
+}
+.slider01{
+    background-image: url("./imges/Pep\ Guardiola.jpg");
+    background-size: 100% 100%;
+}
+.slider02{
+    background-image: url("./imges/carlo\ ancelotti.jpg");
+    background-size: 100% 100%;
+}
+.slider03{
+    background-image: url("./imges/jurgen klopp.jpg");
+    background-size: 100% 100%;
+}
+.slider-mid{
+    width: 200px;
+    padding: 2px;
+    border: 2px solid #D82E7C;
+}
+.team-card {
+   border: 4px solid white;
+   padding: 4px;
+   transition-duration:0.5s ;
+}
+.teamcard:hover .team-card{
+    border: 4px solid salmon;
+    padding: 5px;
+ }
+ .team-hh{
+    transition-duration: 0.5s;
+ }
+ .teamcard:hover .team-hh{
+    color: salmon;
+ }
+.team-h{
+    background: linear-gradient(to right,#1688A2,#296EC7,salmon,#DD2A4B);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.teamcard{
+    transition-duration:0.5s;
+    background: transparent;
+}
+.teamcard:hover{
+    transition-timing-function:ease-in-out;
+    transform: translateY(30px);
+}
+.uniqe{
+    background-color: rgb(248, 240, 231);
+}
+.teamcard1{
+    transition-duration:0.5s;
+    background: transparent;
+    /*color: ;*/
+}
+.team-card1 {
+    border: 4px solid white;
+    padding: 4px;
+    transition-duration:0.5s ;
+}
+.teamcard1:hover .team-card1{
+    border: 4px solid cyan;
+    padding: 5px;
+}
+.Awesome-main{
+    background-color: #FCEFEC;
+}
+.spain{
+    font-size: 40px;
+}
+.flex-container {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height:170vh;
+}
+.flex-item {
+    background: gold;
+    width: 220px;
+    height: 170px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+.flex-item:hover{
+    transition-timing-function:ease-in-out;
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 30px 0px rgb(100, 115, 128);
+}
+.footer-main{
+    background-image: url("./imges/footer.jpg");
+    background-size: 100% 100%;
+}
+.first-slider{
+    height: 85vh;
+    width: 100%;
+}
+.semifoter-card{
+    background-color: whitesmoke;
+}
+.threediv-card{
+    background-image: url("./imges/free3.jpg");
+    background-size: 100% 100%;
+}
+.threediv-card2{
+    background-image: url("./imges/free1.jpg");
+    background-size: 100% 100%;
+    border: 4px solid white;
+
+}
+.threediv-card1{
+    background-image: url("./imges/free2.jpg");
+    background-size: 100% 100%;
+    border: 4px solid white;
+}
+  
